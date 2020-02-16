@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./personalWeb.css">
+    <title>Ejercicio web personal</title>
+  </head>
+
+  <body>
+    <div id="fondopix">
+
+    </div>
+<!-- El header es la ayuda de nav. Contiene
+elementos de encabezado, logo, formularios, nombres autor y otros... -->
+
+<header>
+  <h1>
+  <a href="#">
+    <center>
+      Invisible Area
+    </center>
+  </a>
+</h1>
+</header>
+<!-- el nav define el menú de navegacion en los botones que
+contiene enlaces a diferentes secciones de la web -->
+<center>
+    <nav>
+      <ul>
+        <li class="activo"><a href="./miHtm">Inicio</a></li>
+        <li class="activo"><a href="./Proyectos.html">Proyectos</a></li>
+        <li class="activo"><a href="./Contacto.html">Contacto</a></li>
+        <li class="activo"><a href="./Registro.html">Registro</a></li>
+      </ul>
+    </nav>
+</center>
+
+    <main> <!-- <main> representa el contenido principal del <body> -->
+<h2>Inicio</h2>
+
+<p>Invisible Area nace como concepto donde se exponen y se venden proyectos libros relacionados con la privacidad en internet. También
+habrá acceso a proyectos y textos, los cuales se podrán revisar como material de investación</p>
+<br>
+<p>Toda esta recopilación de libros, artículos y proyectos se deben a la investiagación de un octogenario artista con intereses
+pero no muy bueno en la informática</p>
+<p>Por ahora está en construcción, pero en breves comenzará a funcionar</p>
+
+    </main>
+<!-- Pie de pagina -->
+<footer>
+<p>
+  Página web hecha por
+  <a href=mailto: misissuez@gmail.com>
+    Miguel Alejandro Sislian Suez
+  </a>
+</p>
+
+<p> &copy; 2020. Todos los derechos reservados</p>
+</footer>
+
+  </body>
+
+</html>
