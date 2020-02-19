@@ -22,7 +22,7 @@ body{
 header{
   height: 150px;
 background-color: black;
-background: radial-gradient(red, black);
+background: radial-gradient(#31e4ae, #111);
 }
 
 
@@ -33,7 +33,7 @@ header h1 a {
   /* variant nos permite elegir la variante del tipo de letra  */
   font-variant: small-caps;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 /* La pseudoclase :hover interactua con un elemento con dispositivo señalador
@@ -44,9 +44,9 @@ per no necesariamente lo activa. Se activa cuando pasamos el puntero por encima 
 
 nav ul {
   /*quitamos estilos a la lista*/
+  float: none;
   list-style-type: none;
   margin: 0;
-
   padding: 0;
 }
 
@@ -58,24 +58,47 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
-  background-color: orange;
+  background-color: none;
   display: block;
   padding: 7px;
   text-align: center;
   s
   /**float: right;**/
 }
+li a:hover{
+  background-color: #01feb5;
+}
+/* li a.activo {
+  background-color: blue;
+} */
+
+table{
+  width: 100%;
+}
+table img{
+  float: left;
+}
+#border {
+background-color: #01feb588;
+}
+
+.iframe {
+
+  padding-left: 300px;
+  padding-top: 50px;
+}
 
 main {
-  background-color: #ababab;
+
+  background-color: #30ca9d88;
   height: 400px;
   padding: 7px;
 }
 
 main h2 {
-  color: orange;
+  color: #01feb5;
   font-size: 30px;
 }
 
@@ -86,7 +109,7 @@ main p {
 
 
 footer {
-  background-color: #807c7c;
+  background-color: #01feb588;
   /* float: right;
   margin-top: -75px; */
 }
@@ -94,4 +117,5 @@ footer {
 footer p {
   text-align: right;
   padding: 5px;
+
 }
