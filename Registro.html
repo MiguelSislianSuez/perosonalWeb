@@ -1,42 +1,94 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./personalWeb.css">
-    <title>Ejercicio web personal</title>
-  </head>
 
-  <body>
-    <div id="fondo">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./personalWeb.css">
+  <title>Ejercicio web personal</title>
+</head>
 
-    </div>
-<!-- El header es la ayuda de nav. Contiene
+<body>
+  <div id="fondo">
+
+  </div>
+  <!-- El header es la ayuda de nav. Contiene
 elementos de encabezado, logo, formularios, nombres autor y otros... -->
 
-<header>
-  <h1>
-  <a href="#">
-    <center>
-      Invisible Area
-    </center>
-  </a>
-</h1>
-</header>
-<!-- el nav define el menú de navegacion en los botones que
+  <header>
+    <h1>
+      <a href="#">
+        <center>
+          Invisible Area
+        </center>
+      </a>
+    </h1>
+  </header>
+  <!-- el nav define el menú de navegacion en los botones que
 contiene enlaces a diferentes secciones de la web -->
-    <nav>
-      <ul>
-        <li class="activo"><a href="./miHtm">Inicio</a></li>
-        <li class="activo"><a href="./Libros.html">Libros</a></li>
-        <li class="activo"><a href="./Contacto.html">Contacto</a></li>
-        <li class="activo"><a href="./Registro.html">Registro</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li class="activo"><a href="./miHtm">Inicio</a></li>
+      <li class="activo"><a href="./Libros.html">Libros</a></li>
+      <li class="activo"><a href="./Contacto.html">Contacto</a></li>
+      <li class="activo"><a href="./Registro.html">Registro</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="form">
 
 
+    <form>
+        <label for="usuario">Nombre Usuario</label>
+        <input type="text" name="usuario" id="usuario" />
+        <br/>
 
-    <footer>
+
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pass" />
+        <br/>
+
+        <label for="mailto">Correo electrónico</label>
+        <input type="mailto" mailto="email" id= "email">
+        <br/>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" />
+        <br/>
+
+        <label for="primer apellido">Primer apellido</label>
+        <input type="text" name="primer apellido" id="primer apellido" />
+        <br/>
+
+        <label for="segundo apellido">Segundo apellido</label>
+        <input type="text" name="segundo apellido" id="segundo apellido" />
+        <br/>
+
+        <label for="date">Fecha de nacimiento</label>
+        <input type="date" name="dni" id="date" />
+        <br/>
+
+        <label for="número de telefono">Teléfono móvil</label>
+        <input type="tell" name="número de teléfono" id="segundo apellido" />
+        <br/>
+
+        <label for="direccion">Dirección</label>
+        <!-- <input type="text" name="direccion" id="direccion" /> -->
+        <textarea rows="2" cols="30"></textarea>
+        <br />
+        <br/>
+
+        <!-- <label for="pass2">Repetir Contraseña</label>
+        <br />
+        <input type="password" id="pass2" /> -->
+
+        <input type="submit" value="Enviar datos" />
+    </form>
+    </div>
+  </main>
+
+  <footer>
     <p>
       Página web hecha por
       <a href=mailto: misissuez@gmail.com>
@@ -45,7 +97,7 @@ contiene enlaces a diferentes secciones de la web -->
     </p>
 
     <p> &copy; 2020. Todos los derechos reservados</p>
-    </footer>
+  </footer>
 
 </body>
 

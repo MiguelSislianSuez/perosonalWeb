@@ -28,7 +28,7 @@ background: radial-gradient(#31e4ae, #111);
 
 header h1 a {
   color: #31e4ae;
-  /* decoration nos permite estableces el formato de subrayado */
+  /* decoration nos permite estableces el formato*/
   text-decoration: none;
   /* variant nos permite elegir la variante del tipo de letra  */
   font-variant: small-caps;
@@ -48,6 +48,14 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+main ul{
+  list-style-type: none;
+  padding-left: 8px;
+  margin-top: -200px;
+  float: right;
+  font-size: 11px;
 }
 
 nav ul li {
@@ -80,14 +88,15 @@ table{
 table img{
   float: left;
 }
+
 #border {
 background-color: #01feb588;
 }
 
-.iframe {
-
-  padding-left: 300px;
-  padding-top: 50px;
+.iframe div iframe {
+border: 2px #2ca68288 solid;
+margin-left: 140px;
+margin-top: 60px;
 }
 
 main {
@@ -106,7 +115,28 @@ main p {
   color: white;
 }
 
+/* main form {
+  text-align: center;
+} */
 
+main label input{
+  float: none;
+
+}
+
+div.form {
+
+  border: 2px #2ca68288 solid;
+  margin-left: 140px;
+  margin-top: 6px;
+
+
+}
+/* main form table{
+
+  margin-left: 140px;
+  margin-top: 60px;
+} */
 
 footer {
   background-color: #01feb588;
