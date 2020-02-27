@@ -48,6 +48,13 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+}
+nav ul li {
+  display: inline-block;
+  width: 300px;
+
+  margin: 3px;
 }
 
 main ul{
@@ -58,12 +65,7 @@ main ul{
   font-size: 11px;
 }
 
-nav ul li {
-  display: inline-block;
-  width: 300px;
 
-  margin: 3px;
-}
 
 nav ul li a {
   text-decoration: none;
@@ -75,17 +77,22 @@ nav ul li a {
   s
   /**float: right;**/
 }
+
 li a:hover{
   background-color: #01feb5;
 }
-/* li a.activo {
-  background-color: blue;
-} */
 
-table{
+
+table {
+  padding: left;
   width: 100%;
 }
+
+
 table img{
+  padding: 10px;
+  /* padding-top: 10px;
+  padding-left: 10px; */
   float: left;
 }
 
@@ -93,7 +100,12 @@ table img{
 background-color: #01feb588;
 }
 
-.iframe div iframe {
+/* contancto */
+div.iframe ul{
+  padding-right: 100px;
+  padding-top:50px;
+}
+.iframe div iframe{
 border: 2px #2ca68288 solid;
 margin-left: 140px;
 margin-top: 60px;
@@ -130,13 +142,9 @@ div.form {
   margin-left: 140px;
   margin-top: 6px;
 
-
 }
-/* main form table{
 
-  margin-left: 140px;
-  margin-top: 60px;
-} */
+
 
 footer {
   background-color: #01feb588;
