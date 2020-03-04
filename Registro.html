@@ -35,54 +35,87 @@ contiene enlaces a diferentes secciones de la web -->
   <main>
     <div class="form">
 
-    <form>
+      <table border="1">
+        <tbody>
+          <form>
+            <tr>
+              <td>
+                <label for="usuario">Nombre Usuario</label>
+                <input type="text" name="usuario" id="usuario" />
+              </td>
+            </tr>
 
-        <label for="usuario">Nombre Usuario</label>
-        <input type="text" name="usuario" id="usuario" />
-        <br/>
 
+            <tr>
+              <td>
+                <label for="pass">Contraseña</label>
+                <input type="password" name="pass" id="pass" />
+              </td>
+            </tr>
 
-        <label for="pass">Contraseña</label>
-        <input type="password" name="pass" id="pass" />
-        <br/>
+            <tr>
+              <td>
+                <label for="mailto">Correo electrónico</label>
+                <input type="mailto" mailto="email" id="email">
+              </td>
+            </tr>
 
-        <label for="mailto">Correo electrónico</label>
-        <input type="mailto" mailto="email" id= "email">
-        <br/>
+            <tr>
+              <td>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" />
+              </td>
+            </tr>
 
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" />
-        <br/>
+            <tr>
+              <td>
+                <label for="primer apellido">Primer apellido</label>
+                <input type="text" name="primer apellido" id="primer apellido" />
+              </td>
+            </tr>
 
-        <label for="primer apellido">Primer apellido</label>
-        <input type="text" name="primer apellido" id="primer apellido" />
-        <br/>
+            <tr>
+              <td>
+                <label for="segundo apellido">Segundo apellido</label>
+                <input type="text" name="segundo apellido" id="segundo apellido" />
+              </td>
+            </tr>
 
-        <label for="segundo apellido">Segundo apellido</label>
-        <input type="text" name="segundo apellido" id="segundo apellido" />
-        <br/>
+            <tr>
+              <td>
+                <label for="date">Fecha de nacimiento</label>
+                <input type="date" name="dni" id="date" />
+              </td>
+            </tr>
 
-        <label for="date">Fecha de nacimiento</label>
-        <input type="date" name="dni" id="date" />
-        <br/>
+            <tr>
+              <td>
+                <label for="número de telefono">Teléfono móvil</label>
+                <input type="tel" name="número de teléfono" id="segundo apellido" />
+              </td>
+            </tr>
 
-        <label for="número de telefono">Teléfono móvil</label>
-        <input type="tell" name="número de teléfono" id="segundo apellido" />
-        <br/>
+            <tr>
+              <td>
+                <label for="direccion">Dirección</label>
+                <!-- <input type="text" name="direccion" id="direccion" /> -->
+                <textarea rows="2" cols="30"></textarea>
+            <tr>
+              <td>
+                <input type="submit" value="Enviar datos" />
 
-        <label for="direccion">Dirección</label>
-        <!-- <input type="text" name="direccion" id="direccion" /> -->
-        <textarea rows="2" cols="30"></textarea>
-        <br />
-        <br/>
+              </td>
+            </tr>
 
-        <!-- <label for="pass2">Repetir Contraseña</label>
+            <!-- <label for="pass2">Repetir Contraseña</label>
         <br />
         <input type="password" id="pass2" /> -->
 
-        <input type="submit" value="Enviar datos" />
-    </form>
+          </form>
+        </tbody>
+      </table>
     </div>
+
   </main>
 
   <footer>
@@ -97,4 +130,5 @@ contiene enlaces a diferentes secciones de la web -->
   </footer>
 
 </body>
+
 </html>

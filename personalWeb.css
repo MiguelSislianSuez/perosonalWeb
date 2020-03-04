@@ -1,6 +1,5 @@
 /* tipografia en el head del html */
 body {
-  
   font-family: 'Oswald', sans-serif;
 }
 
@@ -17,6 +16,7 @@ body {
   height: 100%;
   background-image: url("./tenor.gif");
   background-repeat: repeat;
+  background-size: 40% ;
   z-index: -1;
   /*capa y pinta sobre esto cosas*/
   /* opacity: 0.5; */
@@ -75,13 +75,7 @@ nav ul li {
   margin: 3px;
 }
 
-main ul {
-  list-style-type: none;
-  padding-left: 8px;
-  margin-top: -200px;
-  float: right;
-  font-size: 11px;
-}
+
 
 nav ul li a {
   text-decoration: none;
@@ -101,17 +95,23 @@ li a:hover {
 /* #border {
 background-color: #01feb588;
 } */
+
 main {
   background-color: #30ca9d88;
   height: 400px;
   padding: 7px;
 }
-
+main ul {
+  list-style-type: none;
+  padding-left: 8px;
+  margin-top: -200px;
+  float: right;
+  font-size: 11px;
+}
 main h2 {
   color: #01feb5;
   font-size: 30px;
 }
-
 main p {
   color: white;
 }
@@ -132,8 +132,13 @@ footer p {
 
 /* PRODUCTOS LIBROS */
 table {
+  border-style: solid;
   padding: left;
   width: 100%;
+}
+table  tr td{
+
+
 }
 
 table img {
@@ -155,7 +160,36 @@ div.iframe ul {
 
 /* REGISTRO */
 div.form {
-  border: 2px #2ca68288 solid;
-  padding: 10px;
+   width: 100%;
+   padding:10px;
+	/* border-radius:10px; */
   text-align: center;
+	margin:auto;
+
+  /* border-color: #2ca682; */
+  /* border: 2px #2ca68288 solid;
+  padding: 10px; */
+    /* border-style: solid; */
+    /* text-align:center; */ */
+}
+
+div.form label{
+	width:72px;
+	/* font-weight:bold; */
+	display:inline-block;
+}
+div.form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:20%;
+	height:80px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
 }
