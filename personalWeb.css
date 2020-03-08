@@ -204,6 +204,9 @@ textarea{
 
 /* DESCRIPCIÓN PRODUCTOS */
 div.descripcion img{
-width: 300px;
-height: 450px;
+  width:130px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+  height:200px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+  padding-left:1%; /*Padding igual al ancho de la imagen nueva*/
+/* width: 300px;
+height: 450px; */
 }
