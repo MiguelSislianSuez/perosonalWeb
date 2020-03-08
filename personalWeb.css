@@ -86,16 +86,13 @@ nav ul li a {
   padding: 7px;
   text-align: center;
   s
-  /**float: right;**/
+
 }
 
 li a:hover {
   background-color: #01feb5;
 }
 
-/* #border {
-background-color: #01feb588;
-} */
 
 main {
   background-color: #30ca9d88;
@@ -117,13 +114,10 @@ main p {
   color: white;
 }
 
-/* main form {
-  text-align: center;
-} */
+
 footer {
   background-color: #01feb588;
-  /* float: right;
-  margin-top: -75px; */
+
 }
 
 footer p {
@@ -131,7 +125,7 @@ footer p {
   padding: 5px;
 }
 
-/* PRODUCTOS LIBROS */
+/* ----------------------PRODUCTOS LIBROS-------------------- */
 table{
   border: 2px #01feb588 solid ;
 
@@ -153,8 +147,16 @@ table img {
   float: left;
 
 }
+/* -----------------DESCRIPCIÓN PRODUCTOS -----------------*/
+div.descripcion img{
+  width:130px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+  height:200px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+  padding-left:1%; /*Padding igual al ancho de la imagen nueva*/
+/* width: 300px;
+height: 450px; */
+}
 
-/* CONTACTO */
+/* ------------------------CONTACTO -------------------*/
 div.iframe h2{
   margin-top: 3%;
   margin-left: 22%;
@@ -170,7 +172,7 @@ div.iframe ul {
   margin-top: 1%;
 }
 
-/* REGISTRO */
+/*------------------------- REGISTRO---------------------- */
 div.form {
    width: 100%;
    padding:10px;
@@ -200,13 +202,4 @@ textarea{
 	margin:8px 0;
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;
-}
-
-/* DESCRIPCIÓN PRODUCTOS */
-div.descripcion img{
-  width:130px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
-  height:200px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
-  padding-left:1%; /*Padding igual al ancho de la imagen nueva*/
-/* width: 300px;
-height: 450px; */
 }
