@@ -67,6 +67,7 @@ nav ul {
   /*quitamos estilos a la lista*/
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 nav ul li {
@@ -98,7 +99,7 @@ background-color: #01feb588;
 
 main {
   background-color: #30ca9d88;
-  height: 500px;
+  height: 100%;
   padding: 7px;
 }
 main ul {
@@ -131,31 +132,42 @@ footer p {
 }
 
 /* PRODUCTOS LIBROS */
-table {
-  border-style: solid;
-  padding: left;
+table{
+  border: 2px #01feb588 solid ;
+
+padding: left;
   width: 100%;
 }
-table  tr td{
+table td{
+  border: 2px #01feb588 solid ;
 
+}
 
+table p{
+text-align: justify;
+margin-top: 1%;
 }
 
 table img {
   padding: 10px;
   float: left;
+
 }
 
 /* CONTACTO */
+div.iframe h2{
+  margin-top: 3%;
+  margin-left: 22%;
+}
 div.iframe ul {
   padding-right: 100px;
   padding-top: 50px;
 }
 
-.iframe div iframe {
+.iframe div iframe{
   border: 2px #2ca68288 solid;
   margin-left: 14%;
-  margin-top: 10%;
+  margin-top: 1%;
 }
 
 /* REGISTRO */
@@ -166,16 +178,13 @@ div.form {
   text-align: center;
 	margin:auto;
 
-  /* border-color: #2ca682; */
-  /* border: 2px #2ca68288 solid;
-  padding: 10px; */
-    /* border-style: solid; */
-    /* text-align:center; */ */
 }
-
+div.form table{
+  margin-left: -0.7%;
+}
 div.form label{
   /* espacio dentro de las tablas */
-	width:150px;
+	width:18%;
 	/* font-weight:bold; */
 	display:inline-block;
 }
@@ -191,4 +200,10 @@ textarea{
 	margin:8px 0;
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;
+}
+
+/* DESCRIPCIÓN PRODUCTOS */
+div.descripcion img{
+width: 300px;
+height: 450px;
 }

@@ -16,7 +16,7 @@
 elementos de encabezado, logo, formularios, nombres autor y otros... -->
 
   <header>
-    <img src="./logo4.png" alt="Invisible area">
+    <img src="./logo/logo4.png" alt="Invisible area">
     <h1>
       <a href="#">
         Invisible&nbsp&nbsp rea
