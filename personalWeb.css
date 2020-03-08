@@ -49,7 +49,7 @@ header h1 a {
   color: #31e4ae;
   text-decoration: none;
 }
-
+/* ------LOGO----- */
 header img {
   margin-left: 44.5%;
   width: 200px;
@@ -72,7 +72,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  width: 22%;
+  width: 23.7%; /*Ancho de los bloques del nav*/
   margin: 0.5%;
 }
 
@@ -85,7 +85,7 @@ nav ul li a {
   display: block;
   padding: 7px;
   text-align: center;
-  s
+  
 
 }
 
@@ -149,7 +149,7 @@ table img {
 }
 /* -----------------DESCRIPCIÓN PRODUCTOS -----------------*/
 div.descripcion img{
-  width:131px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+  width:131px;     /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
   height:200px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
   padding-left:1%; /*Padding igual al ancho de la imagen nueva*/
 /* width: 300px;
