@@ -61,6 +61,8 @@ per no necesariamente lo activa. Se activa cuando pasamos el puntero por encima 
 /* header h1 a: hover {
   text-decoration: none;
 } */
+
+/* ------------------------NAVEGADOR----------------------- */
 nav ul {
   float: none;
   list-style-type: none;
@@ -76,8 +78,6 @@ nav ul li {
   margin: 0.5%;
 }
 
-
-
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -85,15 +85,13 @@ nav ul li a {
   display: block;
   padding: 7px;
   text-align: center;
-  
-
 }
 
 li a:hover {
   background-color: #01feb5;
 }
 
-
+/* ----------------------------MAIN----------------------- */
 main {
   background-color: #30ca9d88;
   height: 100%;
@@ -114,7 +112,7 @@ main p {
   color: white;
 }
 
-
+/* -------------------------FOOTER-------------------------- */
 footer {
   background-color: #01feb588;
 
@@ -139,22 +137,119 @@ table td{
 
 table p{
 text-align: justify;
-margin-top: 1%;
+margin-top: 2%;
+text-align: left;
 }
 
-table img {
+table a img {
   padding: 10px;
   float: left;
+  height: 130px;
+  width: 90px;
 
 }
 /* -----------------DESCRIPCIÓN PRODUCTOS -----------------*/
+
 div.descripcion img{
-  width:131px;     /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
-  height:200px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
-  padding-left:1%; /*Padding igual al ancho de la imagen nueva*/
-/* width: 300px;
-height: 450px; */
+  width:181px;     /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+  height:260px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+  padding:0.5%; /*Padding general del borde*/
+
 }
+div.descripcion p {
+margin-left: 17%;
+margin-top: -17%;
+padding: 0.5%;
+text-align: justify;
+}
+
+div.caracteristicas b{
+  color: black;
+}
+div.caracteristicas ul{
+float:left;
+padding: 1%;
+/* margin-right:  1000px; */
+margin-top: 5%;
+color: white;
+font-size: 13px;
+}
+div.precio p{
+  margin-right: 3px;
+  margin-top: 12%;
+  float: right;
+  color: white;
+}
+div.caracteristicas ul a{
+float:left;
+padding: 1%;
+
+/* margin-right:  1000px; */
+margin-top: 1%;
+color: white;
+font-size: 16px;
+background-color: #01feb588;
+}
+/* -----------------DESCRIPCIÓN PRODUCTOS 2 -----------------*/
+div.descripcion2 img{
+  width:181px;     /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+  height:260px;       /*Alto de la imagen nueva, aunque en este caso son iguales.*/
+  padding:0.5%; /*Padding general del borde*/
+
+}
+div.descripcion2 p {
+margin-left: 17%;
+margin-top: -19%;
+padding: 0.5%;
+text-align: justify;
+}
+
+div.caracteristicas2 b{
+  color: black;
+}
+div.caracteristicas2 ul{
+float:left;
+padding: 1%;
+/* margin-right:  1000px; */
+margin-top: 1%;
+color: white;
+font-size: 13px;
+}
+div.caracteristicas2 ul a{
+float:left;
+padding: 1%;
+
+/* margin-right:  1000px; */
+margin-top: 1%;
+color: white;
+font-size: 16px;
+background-color: #01feb588;
+}
+
+div.precio2 p{
+  margin-right: 3px;
+  margin-top: 12%;
+  float: right;
+  color: white;
+}
+
+/* --------------------------BOTON COMPRAR---------------------------- */
+/* div.boton a{
+  background-color: #01feb5;
+
+  text-decoration: none;
+  color: white;
+  background-color: none;
+  display: block;
+  padding: 7px;
+  text-align: center;
+}
+div.boton li {
+  display: inline-block;
+  width: 15.7%;
+  margin: 0.2%;
+  float: right;
+} */
 
 /* ------------------------CONTACTO -------------------*/
 div.iframe h2{
