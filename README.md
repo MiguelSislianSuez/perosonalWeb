@@ -1,2 +1,2 @@
-# perosonalWeb
-Trabajo personal de lenguaje de marcas DAM
+# personalWeb
+Práctica de lenguaje de marcas DAM
